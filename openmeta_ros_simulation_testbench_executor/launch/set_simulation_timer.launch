@@ -3,7 +3,7 @@
     <arg name="sim_start_delay" />
     <arg name="sim_max_pause_duration" />
 
-    <node name="simulation_timeout" pkg="openmeta_testbench_simulation_executor" type="set_simulation_timer.py" required="true"
+    <node name="simulation_timeout" pkg="openmeta_ros_simulation_testbench_executor" type="set_simulation_timer.py" required="true"
           output="screen">
         <rosparam subst_value="true">
             timeout: $(arg timeout)

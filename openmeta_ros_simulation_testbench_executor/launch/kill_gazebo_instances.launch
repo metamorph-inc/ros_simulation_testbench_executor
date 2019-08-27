@@ -1,0 +1,5 @@
+<launch>
+    <arg name="required" default="true" />
+
+    <node name="kill_gazebo_instances" pkg="openmeta_ros_simulation_testbench_executor" type="kill_gazebo_instances.sh" required="$(arg required)"/>
+</launch>

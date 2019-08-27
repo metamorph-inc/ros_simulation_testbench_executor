@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>openmeta_testbench_simulation_executor</name>
+  <name>openmeta_ros_simulation_testbench_executor</name>
   <version>0.0.0</version>
   <description>Tools and utilities for TASCK OpenMETA Testbench workflow. Based on uuv_assistants package.</description>
 
