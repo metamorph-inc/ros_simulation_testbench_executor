@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>openmeta_testbench_simulation_executor</name>
+  <version>0.0.0</version>
+  <description>Tools and utilities for TASCK OpenMETA Testbench workflow. Based on uuv_assistants package.</description>
+
+  <maintainer email="jcoombe@metamorphsoftware.com">Joseph Coombe</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+
+  <url type="website">https://www.metamorphsoftware.com/</url>
+
+  <author email="jcoombe@metamorphsoftware.com">Joseph Coombe</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>python-numpy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rosgraph</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rostopic</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>python-numpy</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rosgraph</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>rostopic</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rosgraph</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rostopic</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+</package>

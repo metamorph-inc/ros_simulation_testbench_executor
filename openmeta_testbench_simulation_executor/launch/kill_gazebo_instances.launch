@@ -1,0 +1,5 @@
+<launch>
+    <arg name="required" default="true" />
+
+    <node name="kill_gazebo_instances" pkg="openmeta_testbench_simulation_executor" type="kill_gazebo_instances.sh" required="$(arg required)"/>
+</launch>

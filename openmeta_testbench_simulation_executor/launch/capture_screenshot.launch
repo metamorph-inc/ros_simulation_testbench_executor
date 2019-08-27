@@ -1,0 +1,11 @@
+<launch>
+    <arg name="prefix" default="openmeta_tb_sim_executor"/>
+    <arg name="capture_times" default="'0.1'"/>
+
+    <node name="capture_screenshot" pkg="openmeta_testbench_simulation_executor" type="capture_screenshot.py" output="screen">
+        <rosparam subst_value="true">
+            prefix: $(arg prefix)
+            capture_times: $(arg capture_times)
+        </rosparam>
+    </node>
+</launch>
